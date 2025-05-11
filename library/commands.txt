@@ -1,0 +1,25 @@
+tsc
+node dist/main.js
+
+npx tsc --init
+
+Example of json
+{
+  "compilerOptions": {
+    "target": "ES6",            // Target JavaScript version
+    "module": "commonjs",       // Module system for Node.js
+    "outDir": "./dist",         // Folder where compiled files will go
+    "rootDir": "./src",         // Where your TypeScript files are located
+    "strict": true,             // Enable all strict type-checking options
+    "esModuleInterop": true     // Allow default imports for non-ESM modules
+  },
+  "include": [
+    "src/**/*.ts"               // All .ts files inside the src directory
+  ],
+  "exclude": [
+    "node_modules"              // Exclude node_modules folder
+  ]
+}
+
+npx tsc
+node dist/main.js

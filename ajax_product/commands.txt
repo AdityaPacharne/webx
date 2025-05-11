@@ -1,0 +1,3 @@
+npm init -y
+npm install cors express
+try to open file using localhost instead of file:///

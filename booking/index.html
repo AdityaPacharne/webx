@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Doctors</h2>
+  <button onclick="loadDoctors()">View Doctors</button>
+  <ul id="doctorList"></ul>
+
+  <h2>Book Appointment</h2>
+  <input id="doctorId" placeholder="Doctor ID" />
+  <input id="patientName" placeholder="Patient Name" />
+  <input id="date" placeholder="Date (YYYY-MM-DD)" />
+  <button onclick="bookAppointment()">Book</button>
+
+  <h2>Appointments</h2>
+  <button onclick="loadAppointments()">View Appointments</button>
+  <ul id="appointmentList"></ul>
+  <h2>Cancel Appointment</h2>
+  <input id="appointmentId" placeholder="Appointment ID" />
+  <button onclick="cancelAppointment()">Cancel</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
