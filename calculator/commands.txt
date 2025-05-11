@@ -1,0 +1,6 @@
+npm init -y
+npm install typescript
+npx tsc --init
+
+npx tsc calculator.ts
+node calculator.js
