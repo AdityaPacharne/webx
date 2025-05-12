@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+
+  <input type="number" id="num1" placeholder="Enter first number" />
+  <input type="number" id="num2" placeholder="Enter second number" />
+
+  <div>
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">*</button>
+    <button onclick="calculate('/')">/</button>
+  </div>
+
+  <h2 id="result">Result: </h2>
+
+  <script src="dist/calculator.js"></script>
+</body>
+</html>
